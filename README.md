@@ -1,12 +1,45 @@
-# React + Vite
+## 🎬 Movie Search Application
+This project is a Movie Search Web App built with React and integrated with the OMDb API. It allows users to search for movies, view details such as ratings, release year, and plot summaries, and explore a clean, responsive interface for discovering films.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📊 Project Overview
+- Search movies by title using the OMDb API.
+- Display movie details including poster, release year, genre, and IMDb rating.
+- Responsive design for desktop and mobile users.
+- Built with React for a modern, interactive UI.
 
-Currently, two official plugins are available:
+## 🛠️ Tools & Technologies
+- React.js – front-end framework
+- JavaScript (ES6+)
+- CSS / Styled Components – styling
+- OMDb API – movie data source
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Repository Contents
+- src/ – React source code
+- components/ – reusable UI components
+- App.js – main application logic
+- README.md – project documentation
 
-## Expanding the ESLint configuration
+## 🚀 How to Run
+- Clone the repository:<br>
+bash<br>
+git clone https://github.com/Likithkumarr/Movie-Search.git<br>
+- Navigate to the project folder:<br>
+bash<br>
+cd Movie-Search<br>
+- Install dependencies:<br>
+bash<br>
+npm install<br>
+- Start the development server:<br>
+bash<br>
+npm start<br>
+- Open your browser at http://localhost:3000 to use the app.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+- 🔍 Search movies by title
+- 🎥 Display movie posters and details
+- ⭐ Show IMDb ratings-
+- 📱 Responsive design
+## 📌 Future Enhancements
+- Add filtering options (by genre, year, rating).
+- Implement favorites/watchlist functionality.
+- Enhance UI with animations and dark mode.
